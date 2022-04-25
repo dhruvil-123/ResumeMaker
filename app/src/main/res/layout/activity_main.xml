@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/main_color"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/margin"
+            android:layout_marginLeft="20dp"
+            android:text="Resume Maker"
+            android:textColor="@color/white"
+            android:textSize="@dimen/heading" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/create"
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:drawableTop="@drawable/create"
+                android:layout_gravity="center"
+                android:text="Create"
+                android:textAllCaps="false"
+                android:background="@drawable/btn_radius"
+                android:textSize="25dp" />
+
+            <Button
+                android:id="@+id/download"
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/main_color"
+                android:drawableTop="@drawable/download"
+                android:layout_gravity="center"
+                android:layout_marginLeft="@dimen/margin"
+                android:text="Download"
+                android:background="@drawable/btn_radius"
+                android:textAllCaps="false"
+                android:textSize="25dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/share"
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/main_color"
+                android:drawableTop="@drawable/share"
+                android:text="Share"
+                android:layout_marginTop="@dimen/margin"
+                android:textAllCaps="false"
+                android:layout_marginBottom="@dimen/margin"
+                android:background="@drawable/btn_radius"
+                android:textSize="25dp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
