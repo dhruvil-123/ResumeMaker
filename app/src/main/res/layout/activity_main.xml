@@ -45,7 +45,7 @@
                 android:layout_gravity="center"
                 android:text="Create"
                 android:textAllCaps="false"
-                android:background="@drawable/btn_radius"
+                android:backgroundTint="@color/main_color"
                 android:textSize="25dp" />
 
             <Button
@@ -57,7 +57,6 @@
                 android:layout_gravity="center"
                 android:layout_marginLeft="@dimen/margin"
                 android:text="Download"
-                android:background="@drawable/btn_radius"
                 android:textAllCaps="false"
                 android:textSize="25dp" />
 
@@ -78,7 +77,6 @@
                 android:layout_marginTop="@dimen/margin"
                 android:textAllCaps="false"
                 android:layout_marginBottom="@dimen/margin"
-                android:background="@drawable/btn_radius"
                 android:textSize="25dp" />
 
         </LinearLayout>
